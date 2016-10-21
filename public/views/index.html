@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="fiveKings">
+  <head>
+    <meta charset="utf-8">
+    <title>The War of the Five Kings!</title>
+
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+
+    <script src="scripts/app.module.js"></script>
+    <script src="scripts/app.config.js"></script>
+
+    <link rel="stylesheet" href="vendors/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+
+    <base href="/" />
+  </head>
+  <body>
+    <main class="container">
+      <div id="navigation">
+        <h1>The War of the Five Kings!</h1>
+        <div id="buttonLinks">
+          <button><a href="/joffrey">King Joffrey</a></button>
+          <button><a href="/renly">King Renly</a></button>
+          <button><a href="/stannis">King Stannis</a></button>
+          <button><a href="/robb">King Robb</a></button>
+          <button><a href="/balon">King Balon</a></button>
+        </div>
+      </div>
+      <ng-view></ng-view>
+    </main>
+  </body>
+</html>
