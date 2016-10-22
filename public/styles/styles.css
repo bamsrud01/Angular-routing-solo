@@ -19,6 +19,10 @@ h1 {
   font-size: 72px;
 }
 
+h2 {
+  font-weight: bolder;
+}
+
 a {
   width: 19%;
 }
@@ -33,4 +37,17 @@ footer {
   background-color: black;
   height: 100px;
   border-radius: 15px;
+}
+
+.description {
+  background-color: maroon;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 16px;
 }
