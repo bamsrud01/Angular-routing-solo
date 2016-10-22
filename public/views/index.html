@@ -17,17 +17,22 @@
   </head>
   <body>
     <main class="container">
-      <div id="navigation">
+      <header id="navigation">
         <h1>The War of the Five Kings!</h1>
-        <div id="buttonLinks">
-          <button><a href="/joffrey">King Joffrey</a></button>
-          <button><a href="/renly">King Renly</a></button>
-          <button><a href="/stannis">King Stannis</a></button>
-          <button><a href="/robb">King Robb</a></button>
-          <button><a href="/balon">King Balon</a></button>
+        <div class="row">
+          <div id="buttonLinks" class="col-lg-offset-3 col-lg-6">
+            <a class="btn btn-danger" href="/joffrey" role="button">King Joffrey</a>
+            <a class="btn btn-danger" href="/renly" role="button">King Renly</a>
+            <a class="btn btn-danger" href="/stannis" role="button">King Stannis</a>
+            <a class="btn btn-danger" href="/robb" role="button">King Robb</a>
+            <a class="btn btn-danger" href="/balon" role="button">King Balon</a>
+          </div>
         </div>
-      </div>
+      </header>
       <ng-view></ng-view>
+      <footer>
+        <h4>All images are from HBO's 'Game of Thrones'</h4>
+      </footer>
     </main>
   </body>
 </html>
